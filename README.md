@@ -320,3 +320,8 @@ C) A IA não poderá receber créditos de escritor e não poderá escrever ou re
 D) O uso de IA pelos escritores foi permanentemente proibido em qualquer circunstância acadêmica ou comercial.
 ```
 
+## 📷 Capturas de Tela
+
+### NotebookLM Criado
+
+Screenshots-20260901203423.png
