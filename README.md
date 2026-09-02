@@ -324,6 +324,6 @@ D) O uso de IA pelos escritores foi permanentemente proibido em qualquer circuns
 
 ### NotebookLM Criado
 
-(imagens/Screenshots-20260901203423.png)
+imagens/Screenshots-20260901203423.png
 
 
