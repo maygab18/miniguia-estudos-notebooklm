@@ -230,6 +230,15 @@ Crie uma lista dos principais tópicos que devo revisar antes de uma avaliação
 
 ### NotebookLM Criado
 
-![NotebookLM Criado] (imagens/Screenshots-20260901203423.png)
+![NotebookLM Criado](imagens/Screenshots-20260901203423.png)
 
 
+---
+
+## 🎓 Conclusão
+
+O NotebookLM demonstrou ser uma ferramenta eficiente para aprendizagem ativa, permitindo organizar informações, gerar resumos e aprofundar conhecimentos a partir de fontes confiáveis.
+
+Durante o desenvolvimento deste projeto, foi possível compreender os fundamentos da Inteligência Artificial Generativa, praticar a curadoria de conteúdo e aplicar técnicas de engenharia de prompts para obter respostas mais precisas e relevantes.
+
+A experiência contribuiu para o desenvolvimento de competências importantes para a área de tecnologia, como pesquisa, análise crítica, organização do conhecimento e uso consciente da Inteligência Artificial.
