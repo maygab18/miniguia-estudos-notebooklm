@@ -230,6 +230,6 @@ Crie uma lista dos principais tópicos que devo revisar antes de uma avaliação
 
 ### NotebookLM Criado
 
-![Screenshots-20260901203423.png]
+![NotebookLM Criado] (imagens/Screenshots-20260901203423.png)
 
 
