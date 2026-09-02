@@ -197,127 +197,33 @@ Ajuste especializado de um modelo treinado.
 ## 🚀 Prompts Reutilizáveis
 
 ### Resumo Geral
+
 ```text
 Resuma este conteúdo destacando os conceitos mais importantes.
-
-A Inteligência Artificial Generativa é um subcampo da inteligência artificial focado na criação de conteúdos originais e novos — como textos, imagens, vídeos, áudios e códigos de programação — em resposta a instruções ou prompts fornecidos pelos usuários
-. Ela se diferencia da IA tradicional (ou discriminativa), que se limita a analisar, classificar ou mapear dados existentes
-; a IA generativa calcula a probabilidade estatística de diferentes características ocorrerem juntas para gerar amostras totalmente inéditas
-.
-Funcionamento e Processo de Desenvolvimento
-De forma geral, a IA generativa depende de redes neurais profundas (deep learning) e opera em três etapas principais
-:
-Treinamento: Um algoritmo estuda volumes gigantescos de dados brutos e não rotulados (terabytes de informações extraídas da internet) para construir um modelo de base
-. O sistema realiza milhões de exercícios de predição (como adivinhar a próxima palavra de uma frase ou o próximo pixel de uma imagem)
-. Essa fase exige milhares de GPUs de alta performance em clusters e investimentos de milhões de dólares
-.
-Ajuste: Para especializar o modelo básico em tarefas específicas, os desenvolvedores aplicam o ajuste fino (fine-tuning), alimentando-o com dados rotulados e focados (como perguntas e respostas)
-, ou utilizam o RLHF (Aprendizado por Reforço com Feedback Humano), onde pessoas pontuam as saídas geradas para melhorar a relevância e segurança do sistema
-.
-Geração e Refinamento: O modelo gera o conteúdo solicitado
-. Estruturas adicionais como a RAG (Geração Aumentada de Recuperação) permitem que a ferramenta acesse bancos de dados externos atualizados em tempo real, fornecendo respostas mais precisas e transparentes ao usuário
-.
-Evolução Histórica e Principais Arquiteturas
-Embora os primeiros experimentos remontem a sistemas como o ELIZA em 1964
-, a IA generativa moderna evoluiu através de quatro grandes saltos arquitetônicos na última década
-:
-Autocodificadores Variacionais (VAEs) (2013): Modelos que simplificam dados brutos em representações matemáticas compactas e conseguem decodificar novas variações do conteúdo original
-.
-Redes Adversárias Generativas (GANs) (2014): Duas redes neurais competem entre si — um gerador de dados sintéticos e um discriminador que julga a fidelidade das amostras —, elevando a qualidade das gerações
-.
-Modelos de Difusão (2014): Adicionam ruído progressivo controlado a uma amostra de treino e, em seguida, ensinam o algoritmo a fazer o processo reverso de remoção de ruído para gerar dados novos e realistas (tecnologia por trás de ferramentas de imagem como o DALL-E)
-.
-Transformers (2017): Introduziram o revolucionário mecanismo de atenção, que permite ao computador analisar sequências inteiras de dados ao mesmo tempo (em vez de palavra por palavra) e capturar o contexto de forma ampla
-. Essa tecnologia viabilizou os grandes modelos de linguagem (LLMs) como GPT-3, GPT-4, LLaMA, Gemini e Copilot
-.
-A popularização do ChatGPT em 2022 inaugurou uma onda acelerada de inovações
-, evoluindo em 2026 para a era da IA agêntica, onde múltiplos agentes de IA autônomos se coordenam de forma independente, utilizando ferramentas de software para concluir objetivos complexos de ponta a ponta sem intervenção humana
-.
-Modalidades de Conteúdo e Aplicações Práticas
-A IA generativa atua em diferentes campos e modalidades de dados
-:
-Textos e Programação: Redige relatórios e resume documentos
-, além de escrever códigos originais, automatizar testes de software e encontrar bugs com assistentes virtuais (como o GitHub Copilot e o Amazon Q Developer)
-.
-Mídia Visual e Sonora: Cria fotos e artes realistas (Midjourney, Stable Diffusion), produz vídeos com coerência temporal e realista (Sora, Veo), e gera vozes e canções sintéticas de alta fidelidade (Lyria)
-.
-Ciência e Engenharia: Auxilia na biologia e medicina prevendo estruturas de proteínas (como o AlphaFold) para acelerar a descoberta de novos medicamentos
-.
-Aplicações de Negócios: Setores como finanças usam a tecnologia para detectar fraudes em tempo recorde
-; na manufatura e automobilismo, ela otimiza o design físico de peças para reduzir custos
-; e em telecomunicações e energia, prevê tendências de rede ou consumo e otimiza operações
-.
-Benefícios e Riscos Associados
-O principal benefício da tecnologia é a maior eficiência operacional, com expressivo aumento de produtividade das equipes, redução de custos e estímulo à criatividade por meio de rascunhos e brainstorming automatizados
-.
-Contudo, ela enfrenta desafios significativos
-:
-Limitações Técnicas: Ocorre a geração de dados falsos ou fictícios apresentados com tom extremamente convincente (as chamadas alucinações)
-. Além disso, a tecnologia sofre com falta de consistência
- e com a falta de explicabilidade de suas decisões internas (sistema de "caixa-preta")
-.
-Desafios Éticos e de Segurança: Há risco de vazamento de dados de propriedade intelectual inseridos nos prompts
-, reprodução de preconceitos históricos (vieses) contidos nos dados de treinamento
- e geração em massa de spam ou conteúdos de IA indesejados e de baixa qualidade (conhecidos como AI slop)
-.
-Impactos Sociais e Laborais: A facilidade de criação de deepfakes de áudio e vídeo viabiliza golpes, difamação e fake news com alto impacto em eleições
-. A substituição da mão de obra criativa causou grandes atritos, resultando em greves de roteiristas e atores em Hollywood em prol de regulamentação contra o uso não autorizado de suas vozes e imagens
-.
-Declínio Intelectual na Educação: O uso descontrolado da tecnologia na educação pode gerar atrofia cognitiva
-. Especialistas defendem que os estudantes devem evitar usar a IA como um "elevador" (para obter a resposta pronta sem esforço mental, inibindo o desenvolvimento de funções cerebrais superiores) e priorizá-la como um "andaime" (ferramenta temporária de apoio e engajamento crítico que sustenta o aprendizado)
 ```
 
 ### Perguntas e Respostas
+
 ```text
 Gere perguntas e respostas com base exclusivamente nas fontes fornecidas.
+```
 
-Pergunta 1: Histórico da IA
-Em 1964, o cientista da computação Joseph Weizenbaum, no MIT, desenvolveu o ELIZA, que ficou conhecido como o primeiro chatbot da história
-. Qual método o ELIZA utilizava para responder aos usuários em formato de texto empático?
-A) Mecanismo de atenção em redes neurais profundas.
-B) Scripts de correspondência de padrões (pattern matching)
-. (Resposta Correta)
-C) Aprendizado por reforço baseado em feedback humano (RLHF).
-D) Modelos probabilísticos baseados em cadeias de Markov.
-Pergunta 2: IA na Educação
-No contexto acadêmico, pesquisadores sugerem uma distinção conceitual sobre o uso ético da IA na educação
-. O que significa utilizar a tecnologia como um "elevador" em vez de um "andaime"?
-A) Significa usar a IA para entregar o resultado final pronto, sem que o estudante realize esforço cognitivo, o que inibe o desenvolvimento de competências críticos
-. (Resposta Correta)
-B) Significa usar a IA como uma ferramenta de apoio temporário que sustenta o processo de aprendizado do aluno
-.
-C) Significa usar a IA apenas para a tradução de idiomas estrangeiros durante as aulas.
-D) Significa proibir completamente o acesso a dispositivos tecnológicos dentro da sala de aula
-.
-Pergunta 3: Arquitetura Tecnológica
-A arquitetura de rede neural conhecida como Transformer foi documentada em 2017 e serve de base para as principais IAs generativas modernas
-. Qual é a grande inovação dessa arquitetura?
-A) A introdução do conceito de espaço latente para comprimir dados
-.
-B) A competição direta entre uma rede geradora e uma rede discriminadora
-.
-C) O mecanismo de "atenção", que permite processar frases ou sequências de dados inteiras simultaneamente e capturar o contexto amplo
-. (Resposta Correta)
-D) A adição progressiva de ruído controlado em amostras de treino para depois removê-lo
-.
-Pergunta 4: Qualidade de Conteúdo
-Descrito pelo jornal The New York Times, o termo "AI slop" (lixo de IA) tornou-se bastante comum no ecossistema da internet
-. O que esse conceito define?
-A) O vazamento acidental de dados pessoais de treinamento de grandes modelos
-.
-B) Conteúdo indesejado ou de baixa qualidade gerado em massa por IA em redes sociais, artes, livros e resultados de buscas, atuando como um equivalente ao spam
-. (Resposta Correta)
-C) As alucinações matemáticas que fazem a IA travar ou parar de responder.
-D) Os códigos de programação incorretos sugeridos por assistentes virtuais de desenvolvimento
-.
-Pergunta 5: Regulamentação e Direitos Autorais
-Em setembro de 2023, a greve dos roteiristas de Hollywood (WGA) chegou ao fim com acordos inéditos sobre o uso de IA
-. Qual das seguintes regras foi aprovada no acordo final?
-A) Os estúdios ganharam o direito de creditar a IA como autora principal de roteiros.
-B) Os escritores passaram a ser legalmente obrigados a usar ferramentas de IA em todas as produções.
-C) A IA não poderá receber créditos de escritor e não poderá escrever ou reescrever "material literário"
-. (Resposta Correta)
-D) O uso de IA pelos escritores foi permanentemente proibido em qualquer circunstância acadêmica ou comercial.
+### Explicação para Iniciantes
+
+```text
+Explique este assunto como se eu estivesse aprendendo pela primeira vez.
+```
+
+### Comparação
+
+```text
+Compare os conceitos apresentados nas fontes e destaque semelhanças e diferenças.
+```
+
+### Revisão para Provas
+
+```text
+Crie uma lista dos principais tópicos que devo revisar antes de uma avaliação.
 ```
 
 ## 📷 Capturas de Tela
