@@ -19,24 +19,16 @@ Inteligência Artificial Generativa.
 ## 📖 Curadoria de Fontes
 
 ### Fonte 1
-Google AI
-
-https://ai.google/
+[Google AI](https://ai.google/)
 
 ### Fonte 2
-Wikipedia
-
-https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial_generativa
+[Wikipedia - Inteligência Artificial Generativa](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial_generativa)
 
 ### Fonte 3
-IBM
-
-https://www.ibm.com/br-pt/think/topics/generative-ai
+[IBM - Generative AI](https://www.ibm.com/br-pt/think/topics/generative-ai)
 
 ### Fonte 4
-AWS Amazon
-
-https://aws.amazon.com/what-is/generative-ai/?trk=24f8dce7-3b98-4598-b07f-6e50b430ac72&sc_channel=ps&ef_id=51464f25e3751356c25425a3dc104101:G:s&msads_camp=487441821&msads_ag=1151190521794109&msads_ad=71949576455592&msads_kw=what%20is%20generative%20ai&msads_matchtype=e&msads_network=o&msads_device=c&msads_geo={LocationId}&msclkid=51464f25e3751356c25425a3dc104101
+[AWS - O que é IA generativa](https://aws.amazon.com/what-is/generative-ai/?trk=24f8dce7-3b98-4598-b07f-6e50b430ac72&sc_channel=ps&ef_id=51464f25e3751356c25425a3dc104101:G:s&msads_camp=487441821&msads_ag=1151190521794109&msads_ad=71949576455592&msads_kw=what%20is%20generative%20ai&msads_matchtype=e&msads_network=o&msads_device=c&msads_geo={LocationId}&msclkid=51464f25e3751356c25425a3dc104101)
 
 ---
 
