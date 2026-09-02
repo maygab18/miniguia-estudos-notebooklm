@@ -224,6 +224,9 @@ Crie uma lista dos principais tópicos que devo revisar antes de uma avaliação
 
 ![NotebookLM Criado](imagens/Screenshots-20260901203423.png)
 
+### Exemplo de Prompt
+
+![Prompt](
 
 ---
 
